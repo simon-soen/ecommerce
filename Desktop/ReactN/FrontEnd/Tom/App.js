@@ -5,14 +5,13 @@ import { useFonts } from 'expo-font';
 import * as SplashScreen from 'expo-splash-screen';
 import { useCallback } from 'react';
 import BottomTabNavigation from './navigation/BottomTabNavigation';
-import { getInputRangeFromIndexes } from 'react-native-snap-carousel';
-import {Cart, NewRivals, ProductDetails} from './screens';
+import {Cart, NewRivals, ProductDetails, LoginPage, Orders, Favorites, SignUp} from './screens';
+
 
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
-
     
   const [fontsLoaded] = useFonts({
     regular:require("./assets/fonts/Poppins-Regular.ttf"),
@@ -65,6 +64,31 @@ export default function App() {
         options={{headerShown:false }}
       />  
       
+      <Stack.Screen 
+        name="Login" 
+        component={LoginPage}
+        options={{headerShown:false }}
+      />  
+
+      <Stack.Screen 
+        name="Orders" 
+        component={Orders}
+        options={{headerShown:false }}
+      />  
+
+      <Stack.Screen 
+        name="Favorites" 
+        component={Favorites}
+        options={{headerShown:false }}
+      />  
+
+<Stack.Screen 
+        name="SignUp" 
+        component={SignUp}
+        options={{headerShown:false }}
+      /> 
+
+
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -6,7 +6,7 @@ const productRouter = require('./routes/products');
 const authRouter = require('./routes/auth');
 const userRouter = require('./routes/user');
 const cartRouter = require('./routes/cart');
-
+const orderRouter = require('./routes/order');
 const port = 3000;
 
 dotenv.config();
@@ -20,6 +20,7 @@ app.use('/api/products', productRouter);
 app.use('/api/', authRouter);
 app.use('/api/users', userRouter);
 app.use('/api/cart', cartRouter);
+app.use('/api/orders', orderRouter);
 
 
 
