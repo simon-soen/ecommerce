@@ -20,11 +20,17 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff",
-      }
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.simon9141.Tom"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a271da4c-7c79-4e62-a2ba-17da6e8749d3"
+      }
     }
   }
 }
