@@ -13,7 +13,7 @@ import { useState } from "react";
  
 
 
-const Home = () => {
+const Home = ({navigation}) => {
   const [userData, setUserData] = useState(null)
   const [userLogin, setUserLogin] = useState(false)
 
@@ -49,9 +49,12 @@ const Home = () => {
           
           <View style={{alignItems:"flex-end", marginRight:10}}>
             <View style={styles.cartCount}>
-              <Text style={styles.cartNumber}>8</Text>
+              <Text style={styles.cartNumber} >8</Text>
             </View>
-              <TouchableOpacity>
+
+
+            
+              <TouchableOpacity onPress={() => navigation.navigate('Cart')}>
                 <Fontisto name="shopping-bag" size={24} />
               </TouchableOpacity>
           </View>

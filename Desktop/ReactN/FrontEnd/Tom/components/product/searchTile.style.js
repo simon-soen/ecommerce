@@ -13,6 +13,8 @@ const styles = StyleSheet.create({
         backgroundColor: "#fff",
         ...SHADOWS.medium,
         shadowColor: COLORS.lightWhite,
+        marginLeft: SIZES.small,
+        marginRight: SIZES.small,
       },
       
 

@@ -4,6 +4,7 @@ import ProductRow from "./product/productRow";
 import ProductList from "./product/ProductList";
 import BackBtn from "./BackBtn";
 import Button from "./Button";
+import CartTile from "./cart/CartTile";
 
 
 
@@ -13,5 +14,7 @@ export {
     ProductRow,
     ProductList,
     BackBtn,
-    Button
+    Button, 
+    CartTile
+
 }

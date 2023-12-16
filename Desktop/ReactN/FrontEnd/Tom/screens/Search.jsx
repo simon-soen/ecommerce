@@ -64,7 +64,7 @@ const Search = () => {
             source={require("../assets/images/Pose23.png")}
             style={styles.searchImage}
             />
-          </View>
+          </View> 
         ):(
           <FlatList
             data={searchResult}
