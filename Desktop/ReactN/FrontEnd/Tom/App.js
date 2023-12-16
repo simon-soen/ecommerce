@@ -6,7 +6,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useCallback } from 'react';
 import BottomTabNavigation from './navigation/BottomTabNavigation';
 import {Cart, NewRivals, ProductDetails, LoginPage, Orders, Favorites, SignUp} from './screens';
-
+import { ReactNode } from 'react';
 
 
 const Stack = createNativeStackNavigator();

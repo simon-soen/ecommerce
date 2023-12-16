@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { Colors, COLORS } from "react-native/Libraries/NewAppScreen";
+import {COLORS } from "react-native/Libraries/NewAppScreen";
 import { SIZES } from "../constants";
 
 
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     location : {
         fontSize: SIZES.medium,
         fontFamily:"medium",
-        color:Colors.gray
+        color:'white'
     },
 
     cartCount:{
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         fontFamily:"regular",
         fontWeight:"600",
         fontSize:10,
-        color: Colors.light,
+        color: "white",
         alignSelf:"center",
         
     }
