@@ -36,6 +36,7 @@
     "react-native-webpack": "^0.1.1",
     "react-native-webview": "13.2.2",
     "webpack": "^5.89.0"
+
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
