@@ -15,7 +15,7 @@ const Cart = ({navigation}) => {
                     size={30} color={COLORS.lightWhite}/> 
                 </TouchableOpacity>
 
-                <Text style={[styles.heading,{margin} ]}>Cart</Text>
+                <Text style={styles.heading }>Cart</Text>
             </View>
             <CartTile/>
         </View> 

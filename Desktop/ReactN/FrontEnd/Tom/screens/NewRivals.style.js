@@ -23,6 +23,7 @@ const styles = StyleSheet.create({
         borderRadius:SIZES.large,
         top:SIZES.large,
         zIndex:999,  
+        
     },
 
     heading:{
